@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+
+}
+#header{
+    text-align: center;
+    /* background-color: aliceblue; */
+
+    margin-bottom:100px;
+
+}
+/* Div to hold the calculator image in center */
+#calcBox{
+    /* background-color: lightblue; */
+
+    display: flex;
+    flex: 1;
+
+    justify-content: center;
+    align-items: center;
+}
+/* The body of the calculator */
+#calcBody{
+    background-color: rgb(99, 96, 96);
+
+    height:600px;
+    width:500px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding:40px;
+
+    outline: 5px solid rgb(0, 0, 0);
+    border-radius:12px;
+
+}
+/* Calculator screen */
+#calcScreen{
+    background-color: white;
+    outline:3px solid black;
+
+    height:100px;
+    width:400px;
+
+}
+
+/* The screen content */
+#screenContent{
+    text-align: end;
+    font-size: 60px;
+}
+/* Div to hold the calculator buttons */
+#calcButtons{
+    background-color: gainsboro;
+    margin-top: 10px;
+
+    border-radius:12px;
+
+}
+/* A button on the calculator */
+.calcButton{
+    text-align: center;
+    
+    /* height, width, rounded corners and border */
+    height: 100px;
+    width: 100px;
+
+    border-radius:12px;
+    border-color: navy;
+
+    /* Text properties */
+    font-size: large;
+    font-weight: bolder;
+
+}
+.calcButton:hover{
+    background-color: salmon;
+}
+
+/* Subclasses for the number of buttons */
+.number{
+    background-color: rgb(167, 196, 250);
+
+}
+
+.operation{
+    background-color: wheat;
+
+}
+.clear{
+    background-color: aqua;
+
+}
+#footer{
+    text-align:center;
+
+}
